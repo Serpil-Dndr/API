@@ -3,13 +3,12 @@ package day04;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.junit.Test;
-import org.w3c.dom.CDATASection;
 import utilities.BaseUrlSpec;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.request;
 
 
-public class C01_GetRequest extends BaseUrlSpec {
+public class C07_GetRequest extends BaseUrlSpec {
 
 
         @Test

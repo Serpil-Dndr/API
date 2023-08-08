@@ -2,16 +2,14 @@ package day04;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.json.JSONObject;
-import org.junit.Assert;
 import org.junit.Test;
 import utilities.BaseUrlSpec;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class C02_GetRequest extends BaseUrlSpec {
+public class C08_GetRequest extends BaseUrlSpec {
 
     @Test
     public void userId1RegressIn(){
